@@ -16,6 +16,9 @@
 
 var rsaUnpack = require('rsa-unpack');
 var objectAssign = require('object-assign');
+if (!global || !global.Buffer) {
+  var Buffer = require('buffer').Buffer;
+}
 
 /*
  *  Parameters:
