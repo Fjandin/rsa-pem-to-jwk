@@ -39,6 +39,6 @@
   "dependencies": {
     "buffer": "^4.9.1",
     "object-assign": "^2.0.0",
-    "rsa-unpack": "0.0.6"
+    "rsa-unpack": "fjandin/rsa-unpack"
   }
 }
